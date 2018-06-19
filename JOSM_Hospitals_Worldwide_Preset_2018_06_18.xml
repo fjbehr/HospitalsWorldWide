@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" author="Franz-Josef Behr, Thilo Pfalzgraf" version="0.6" shortdescription="Open Cities Dhaka" description="For mapping Hospitals Worldwide">
+
+<group name="Hospitals Worldwide">
+	<chunk id="CommonFacilityProperties">
+		<key key="amenity" value="hospital" />
+		<key key="source" value="OSM" />
+		
+		<label text="--- Facility identification ---"/>
+		<text key="name" text="Local Facility Name" default="" delete_if_empty="false" />
+		<text key="name:en" text="English Facility Name" default="" delete_if_empty="false" />
+		<combo key="addr:country" text="Intl. Country Code" default="" delete_if_empty="false" 
+		values="AD,AE,AF,AG,AI,AL,AM,AO,AQ,AR,AS,AT,AU,AW,AX,AZ,BA,BB,BD,BE,BF,BG,BH,BI,BJ,BL,BM,BN,BO,BQ,BR,BS,BT,BV,BW,BY,BZ,CA,CC,CD,CF,CG,CH,CI,CK,CL,CM,CN,CO,CR,CU,CV,CW,CX,CY,CZ,DE,DJ,DK,DM,DO,DZ,EC,EE,EG,EH,ER,ES,ET,FI,FJ,FK,FM,FO,FR,GA,GB,GD,GE,GF,GG,GH,GI,GL,GM,GN,GP,GQ,GR,GS,GT,GU,GW,GY,HK,HM,HN,HR,HT,HU,ID,IE,IL,IM,IN,IO,IQ,IR,IS,IT,JE,JM,JO,JP,KE,KG,KH,KI,KM,KN,KP,KR,KW,KY,KZ,LA,LB,LC,LI,LK,LR,LS,LT,LU,LV,LY,MA,MC,MD,ME,MF,MG,MH,MK,ML,MM,MN,MO,MP,MQ,MR,MS,MT,MU,MV,MW,MX,MY,MZ,NA,NC,NE,NF,NG,NI,NL,NO,NP,NR,NU,NZ,OM,PA,PE,PF,PG,PH,PK,PL,PM,PN,PR,PS,PT,PW,PY,QA,RE,RO,RS,RU,RW,SA,SB,SC,SD,SE,SG,SH,SI,SJ,SK,SL,SM,SN,SO,SR,SS,ST,SV,SX,SY,SZ,TC,TD,TF,TG,TH,TJ,TK,TL,TM,TN,TO,TR,TT,TV,TW,TZ,UA,UG,UM,US,UY,UZ,VA,VC,VE,VG,VI,VN,VU,WF,WS,YE,YT,ZA,ZM,ZW" 
+		display_values="Andorra,United Arab Emirates,Afghanistan,Antigua and Barbuda,Anguilla,Albania,Armenia,Angola,Antarctica,Argentina,American Samoa,Austria,Australia,Aruba,Åland Islands,Azerbaijan,Bosnia and Herzegovina,Barbados,Bangladesh,Belgium,Burkina Faso,Bulgaria,Bahrain,Burundi,Benin,Saint Barthélemy,Bermuda,Brunei Darussalam,Bolivia Plurinational State of,Bonaire Sint Eustatius and Saba,Brazil,Bahamas,Bhutan,Bouvet Island,Botswana,Belarus,Belize,Canada,Cocos (Keeling) Islands,Congo the Democratic Republic of the,Central African Republic,Congo,Switzerland,Côte d'Ivoire,Cook Islands,Chile,Cameroon,China,Colombia,Costa Rica,Cuba,Cabo Verde,Curaçao,Christmas Island,Cyprus,Czechia,Germany,Djibouti,Denmark,Dominica,Dominican Republic,Algeria,Ecuador,Estonia,Egypt,Western Sahara,Eritrea,Spain,Ethiopia,Finland,Fiji,Falkland Islands (Malvinas),Micronesial Federated States of,Faroe Islands,France,Gabon,United Kingdom of Great Britain and Northern Ireland,Grenada,Georgia,French Guiana,Guernsey,Ghana,Gibraltar,Greenland,Gambia,Guinea,Guadeloupe,Equatorial Guinea,Greece,South Georgia and the South Sandwich Islands,Guatemala,Guam,Guinea-Bissau,Guyana,Hong Kong,Heard Island and McDonald Islands,Honduras,Croatia,Haiti,Hungary,Indonesia,Ireland,Israel,Isle of Man,India,British Indian Ocean Territory,Iraq,Iran Islamic Republic of,Iceland,Italy,Jersey,Jamaica,Jordan,Japan,Kenya,Kyrgyzstan,Cambodia,Kiribati,Comoros,Saint Kitts and Nevis,Korea Democratic People's Republic of,Korea Republic of,Kuwait,Cayman Islands,Kazakhstan,Lao People's Democratic Republic,Lebanon,Saint Lucia,Liechtenstein,Sri Lanka,Liberia,Lesotho,Lithuania,Luxembourg,Latvia,Libya,Morocco,Monaco,Moldova Republic of,Montenegro,Saint Martin (French part),Madagascar,Marshall Islands,Macedonia the former Yugoslav Republic of,Mali,Myanmar,Mongolia,Macao,Northern Mariana Islands,Martinique,Mauritania,Montserrat,Malta,Mauritius,Maldives,Malawi,Mexico,Malaysia,Mozambique,Namibia,New Caledonia,Niger,Norfolk Island,Nigeria,Nicaragua,Netherlands,Norway,Nepal,Nauru,Niue,New Zealand,Oman,Panama,Peru,French Polynesia,Papua New Guinea,Philippines,Pakistan,Poland,Saint Pierre and Miquelon,Pitcairn,Puerto Rico,Palestine State of,Portugal,Palau,Paraguay,Qatar,Réunion,Romania,Serbia,Russian Federation,Rwanda,Saudi Arabia,Solomon Islands,Seychelles,Sudan,Sweden,Singapore,Saint Helena Ascension and Tristan da Cunha,Slovenia,Svalbard and Jan Mayen,Slovakia,Sierra Leone,San Marino,Senegal,Somalia,Suriname,South Sudan,Sao Tome and Principe,El Salvador,Sint Maarten (Dutch part),Syrian Arab Republic,Swaziland,Turks and Caicos Islands,Chad,French Southern Territories,Togo,Thailand,Tajikistan,Tokelau,Timor-Leste,Turkmenistan,Tunisia,Tonga,Turkey,Trinidad and Tobago,Tuvalu,Taiwan Province of China,Tanzania United Republic of,Ukraine,Uganda,United States Minor Outlying Islands,United States of America,Uruguay,Uzbekistan,Holy See,Saint Vincent and the Grenadines,Venezuela Bolivarian Republic of,Virgin Islands British,Virgin Islands U.S.,Viet Nam,Vanuatu,Wallis and Futuna,Samoa,Yemen,Mayotte,South Africa,Zambia,Zimbabwe" 
+		values_searchable="true" 
+		/>
+		<text key="admin_level1" text="First Admin. Level, i.e. state, region" default="" delete_if_empty="false" />
+		<text key="admin_level2" text="Second Admin. Level, i.e. province, constituency" default="" delete_if_empty="false" />
+		<text key="admin_level3" text="Third Admin. Level, i.e. municipality" default="" delete_if_empty="false" />
+		<text key="admin_level4" text="Fourth Admin. Level, i.e. ward" default="" delete_if_empty="false" />
+        <text key="addr:postcode" text="Postal- or Zip Code" default="" delete_if_empty="false" />
+        <text key="addr:street" text="Street Name" default="" delete_if_empty="false" />
+        <text key="addr:housenumber" text="House Number" default="" delete_if_empty="false" />
+		
+		<label text="--- Administrative information ---"/>
+		<combo key="operator:type" text="Operator / Owner" default="" delete_if_empty="false" 
+		values="private/for-profit,private/ngo,private/faith-based,public/government"
+		/>
+        <combo key="operational_status" text="Operational Status" default="" delete_if_empty="false" 
+		values="Operational,Licensed,Pending Licensing,License Suspended,License Canceled,Pending Registration,Registered,Closed,Invalid,Does not exist,Duplicate item"
+		/>
+        <text key="health_facility:patients_per_day" text="Average number of new patients seen by a facility in one day" default="" delete_if_empty="false" />
+        <text key="phone" text="Telephone" default="" delete_if_empty="false" />
+        <text key="email" text="E-Mail" default="" delete_if_empty="false" />
+        <text key="website" text="Website" default="" delete_if_empty="false" />
+		
+		<label text="--- Opening information ---"/>
+        <text key="opening_hours" text="Opening Hours" default="" delete_if_empty="false" />
+		
+		<label text="Special Opening Dates: Collection of dates on which a facility"/>		
+        <text key="opening_dates" text="is open (can be used for irregularly opening facilities)" default="" delete_if_empty="false" />
+		
+		<label text="Opening Frequency: Period of time that passes between the regular"/>
+        <text key="opening_date:frequency" text="opening of a facility (can be used for mobile, regularly opening facilities)" default="" delete_if_empty="false" />
+		
+        <text key="opening_hours:closed" text="Special Holidays" default="" delete_if_empty="false" />
+		<!--
+        <text key="Timestamp" text="Timestamp" default="" delete_if_empty="false" />
+        <text key="Version" text="Version" default="" delete_if_empty="false" />
+        <text key="UserID" text="UserID" default="" delete_if_empty="false" />
+		-->
+		
+	</chunk>
+	<item name="First Level Hospital" type="node,closedway" icon = "presets/health/hospital.svg">
+		<reference ref="CommonFacilityProperties" />
+		<key key="health_facility:type" value="First Level Hospital" />
+	</item>
+	<item name="Second Level Hospital" type="node,closedway" icon = "presets/health/hospital.svg">
+		<reference ref="CommonFacilityProperties" />
+		<key key="health_facility:type" value="Second Level Hospital" />
+	</item>
+	<item name="Third Level Hospital" type="node,closedway" icon = "presets/health/hospital.svg">
+		<reference ref="CommonFacilityProperties" />
+		<key key="health_facility:type" value="Third Level Hospital" />
+	</item>
+	<item name="Hospital Affiliated Health Center" type="node,closedway">
+		<reference ref="CommonFacilityProperties" />
+		<key key="health_facility:type" value="Hospital Affiliated Health Center" />
+	</item>
+	<item name="Health Center" type="node,closedway">
+		<reference ref="CommonFacilityProperties" />
+		<key key="health_facility:type" value="Health Center" />
+	</item>
+	<item name="Health Post" type="node,closedway">
+		<reference ref="CommonFacilityProperties" />
+		<key key="health_facility:type" value="Health Post" />
+	</item>
+	<item name="Dispensary" type="node,closedway">
+		<reference ref="CommonFacilityProperties" />
+		<key key="health_facility:type" value="Dispensary" />
+	</item>
+	<item name="Pharmacy" type="node,closedway">
+		<reference ref="CommonFacilityProperties" />
+		<key key="health_facility:type" value="Pharmacy" />
+	</item>
+	<item name="Laboratory" type="node,closedway">
+		<reference ref="CommonFacilityProperties" />
+		<key key="health_facility:type" value="Laboratory" />
+	</item>
+	<item name="Temporary Facility" type="node,closedway">
+		<reference ref="CommonFacilityProperties" />
+		<key key="health_facility:type" value="Temporary Facility" />
+	</item>
+	<item name="Mobile Facility" type="node,closedway">
+		<reference ref="CommonFacilityProperties" />
+		<key key="health_facility:type" value="Mobile Facility" />
+	</item>
+	
+</group>
+</presets>
+
+
+
+
+T.p.@87!
